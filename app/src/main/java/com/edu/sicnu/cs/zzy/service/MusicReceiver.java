@@ -7,6 +7,9 @@ import android.content.Intent;
 public class MusicReceiver extends BroadcastReceiver {
     MainActivity mainActivity;
 
+    public MusicReceiver() {
+    }
+
     public MusicReceiver(MainActivity mainActivity) {
         this.mainActivity = mainActivity;
     }
